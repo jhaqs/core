@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HolaMundoController {
 
     public String saludo(){
-        return "Hola mundo Spring boot nuevo";
+        return "Hola mundo Spring boot nuevo" +
+                " 2024";
     }
 }
